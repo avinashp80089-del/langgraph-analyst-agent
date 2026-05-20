@@ -1,0 +1,27 @@
+[
+  {
+    "query": "Analyze Ethereum market performance, on-chain transaction volume, and risk metrics for the past 30 days. Highlight any concerns for the risk team.",
+    "expected_tools": ["get_market_data", "query_transaction_analytics", "assess_risk_metrics"],
+    "category": "market_risk"
+  },
+  {
+    "query": "Compare Bitcoin and Ethereum volatility over the past month. Calculate the annualized Sharpe ratio for both and recommend which has better risk-adjusted returns.",
+    "expected_tools": ["get_market_data", "run_statistical_analysis", "calculator"],
+    "category": "comparative_analysis"
+  },
+  {
+    "query": "What is the current state of DeFi transaction volume on Polygon and Solana? Identify any week-over-week growth anomalies and assess compliance risk for high-value transactions.",
+    "expected_tools": ["query_transaction_analytics", "run_statistical_analysis", "assess_risk_metrics"],
+    "category": "defi_compliance"
+  },
+  {
+    "query": "Generate a risk assessment report for a portfolio with 60% ETH, 30% BTC, and 10% MATIC. Include VaR, CVaR, and correlation analysis.",
+    "expected_tools": ["assess_risk_metrics", "run_statistical_analysis", "calculator"],
+    "category": "portfolio_risk"
+  },
+  {
+    "query": "If our fee revenue is $180,920 on $45,230,000 volume, what is our take rate? How does a 15% volume increase impact projected annual fee revenue? Show all calculations.",
+    "expected_tools": ["calculator", "query_transaction_analytics"],
+    "category": "revenue_analysis"
+  }
+]
